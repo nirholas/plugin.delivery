@@ -15,8 +15,7 @@
 ---
 
 ## What Is Plugin Delivery? 
-
-The **official plugin marketplace and SDK** for SperaxOS — a crypto/DeFi-focused AI assistant platform.
+AI plugin marketplace. SDK, gateway & developer tools for building function-calling plugins. OpenAPI compatible, multi-language support, Vercel edge deployment. Build chat plugins, AI tools & extensions. Primary use in cryptocurrency, DeFI, crypto trading, and blockchain analytics. Compatible with ERC-8004 agents.
 
 | Feature | Description |
 |---------|-------------|
