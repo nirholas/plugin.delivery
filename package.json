@@ -7,7 +7,7 @@
     "type": "git",
     "url": "https://github.com/nirholas/plugin.delivery.git"
   },
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE",
   "author": "Sperax <contact@sperax.io>",
   "type": "module",
   "main": "public/index.json",

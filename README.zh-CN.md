@@ -5,7 +5,6 @@
 **AI Function Call Plugins & Tools for SperaxOS**
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/nirholas/plugin.delivery)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![npm](https://img.shields.io/npm/v/@sperax/plugin-sdk)](https://www.npmjs.com/package/@sperax/plugin-sdk)
 
 **Live:** [`plugin.delivery`](https://plugin.delivery)
@@ -481,14 +480,4 @@ We welcome contributions! See [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ## License
 
-MIT © [Sperax](https://sperax.io)
-
----
-
-<div align="center">
-
-**[🔌 plugin.delivery](https://plugin.delivery)** — AI Function Calls for the Crypto Era
-
-Built with ❤️ by [nich](https://x.com/nichxbt)
-
-</div>
+All rights reserved. See [LICENSE](LICENSE).
