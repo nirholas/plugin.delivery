@@ -917,10 +917,12 @@ For local development, specify a gateway in your manifest:
 
 ### Creating Gateway Routes
 
-Install the gateway package:
+Install the gateway package. It is a workspace package in this repository, not an npm release:
 
 ```bash
-pnpm add @sperax/chat-plugins-gateway
+git clone https://github.com/nirholas/plugin.delivery.git
+cd plugin.delivery
+pnpm install
 ```
 
 #### Next.js (Edge Runtime)

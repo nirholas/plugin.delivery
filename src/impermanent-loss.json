@@ -1,0 +1,19 @@
+{
+  "author": "SperaxOS",
+  "createdAt": "2025-01-01",
+  "homepage": "https://github.com/nirholas/plugin.delivery",
+  "identifier": "impermanent-loss",
+  "manifest": "https://plugin.delivery/impermanent-loss/manifest.json",
+  "meta": {
+    "avatar": "📉",
+    "description": "Interactive IL calculator with visual charts",
+    "tags": [
+      "impermanent-loss",
+      "lp",
+      "defi"
+    ],
+    "title": "Impermanent Loss",
+    "category": "tools"
+  },
+  "schemaVersion": 1
+}

@@ -1,0 +1,20 @@
+{
+  "author": "SperaxOS",
+  "createdAt": "2025-01-01",
+  "homepage": "https://github.com/nirholas/plugin.delivery",
+  "identifier": "snapshot",
+  "manifest": "https://plugin.delivery/snapshot/manifest.json",
+  "meta": {
+    "avatar": "📸",
+    "description": "Proposal viewer and voting interface for DAOs",
+    "tags": [
+      "snapshot",
+      "dao",
+      "voting",
+      "governance"
+    ],
+    "title": "Snapshot Voting",
+    "category": "social"
+  },
+  "schemaVersion": 1
+}

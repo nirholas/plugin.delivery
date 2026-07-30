@@ -1,0 +1,19 @@
+{
+  "author": "SperaxOS",
+  "createdAt": "2025-01-01",
+  "homepage": "https://github.com/nirholas/plugin.delivery",
+  "identifier": "jupiter",
+  "manifest": "https://plugin.delivery/jupiter/manifest.json",
+  "meta": {
+    "avatar": "🪐",
+    "description": "Solana DEX aggregator swap interface",
+    "tags": [
+      "jupiter",
+      "solana",
+      "swap"
+    ],
+    "title": "Jupiter",
+    "category": "stocks-finance"
+  },
+  "schemaVersion": 1
+}

@@ -1,0 +1,19 @@
+{
+  "author": "SperaxOS",
+  "createdAt": "2025-01-01",
+  "homepage": "https://github.com/nirholas/plugin.delivery",
+  "identifier": "points-tracker",
+  "manifest": "https://plugin.delivery/points-tracker/manifest.json",
+  "meta": {
+    "avatar": "⭐",
+    "description": "Multi-protocol points dashboard",
+    "tags": [
+      "points",
+      "airdrop",
+      "rewards"
+    ],
+    "title": "Points Tracker",
+    "category": "stocks-finance"
+  },
+  "schemaVersion": 1
+}

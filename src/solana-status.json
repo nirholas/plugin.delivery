@@ -1,0 +1,19 @@
+{
+  "author": "SperaxOS",
+  "createdAt": "2025-01-01",
+  "homepage": "https://github.com/nirholas/plugin.delivery",
+  "identifier": "solana-status",
+  "manifest": "https://plugin.delivery/solana-status/manifest.json",
+  "meta": {
+    "avatar": "☀️",
+    "description": "Solana network TPS, slot info, and validator stats",
+    "tags": [
+      "solana",
+      "network",
+      "tps"
+    ],
+    "title": "Solana Status",
+    "category": "tools"
+  },
+  "schemaVersion": 1
+}

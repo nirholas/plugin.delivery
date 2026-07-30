@@ -1,0 +1,19 @@
+{
+  "author": "SperaxOS",
+  "createdAt": "2025-01-01",
+  "homepage": "https://github.com/nirholas/plugin.delivery",
+  "identifier": "oneinch",
+  "manifest": "https://plugin.delivery/oneinch/manifest.json",
+  "meta": {
+    "avatar": "🦄",
+    "description": "Swap UI with route visualization across DEXes",
+    "tags": [
+      "1-inch",
+      "swap",
+      "aggregator"
+    ],
+    "title": "1inch Aggregator",
+    "category": "stocks-finance"
+  },
+  "schemaVersion": 1
+}

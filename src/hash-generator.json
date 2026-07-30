@@ -1,0 +1,19 @@
+{
+  "author": "SperaxOS",
+  "createdAt": "2025-01-01",
+  "homepage": "https://github.com/nirholas/plugin.delivery",
+  "identifier": "hash-generator",
+  "manifest": "https://plugin.delivery/hash-generator/manifest.json",
+  "meta": {
+    "avatar": "#️⃣",
+    "description": "Multi-hash tool for keccak256 and function selectors",
+    "tags": [
+      "hash",
+      "keccak",
+      "selector"
+    ],
+    "title": "Hash Generator",
+    "category": "tools"
+  },
+  "schemaVersion": 1
+}

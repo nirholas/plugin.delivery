@@ -584,4 +584,4 @@ try {
 
 - [Plugin Types Guide](./PLUGIN_TYPES.md) - Understand plugin types
 - [SDK API Reference](./SDK_API_REFERENCE.md) - Full SDK documentation
-- [Gateway Guide](./GATEWAY_GUIDE.md) - Set up local development
+- [Gateway Guide](./COMMUNICATION_GUIDE.md) - Set up local development

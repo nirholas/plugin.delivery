@@ -1,0 +1,19 @@
+{
+  "author": "SperaxOS",
+  "createdAt": "2025-01-01",
+  "homepage": "https://github.com/nirholas/plugin.delivery",
+  "identifier": "contract-diff",
+  "manifest": "https://plugin.delivery/contract-diff/manifest.json",
+  "meta": {
+    "avatar": "📝",
+    "description": "Side-by-side smart contract code comparison",
+    "tags": [
+      "diff",
+      "contracts",
+      "comparison"
+    ],
+    "title": "Smart Contract Diff",
+    "category": "tools"
+  },
+  "schemaVersion": 1
+}

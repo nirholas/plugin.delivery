@@ -1,0 +1,19 @@
+{
+  "author": "SperaxOS",
+  "createdAt": "2025-01-01",
+  "homepage": "https://github.com/nirholas/plugin.delivery",
+  "identifier": "airdrop-checker",
+  "manifest": "https://plugin.delivery/airdrop-checker/manifest.json",
+  "meta": {
+    "avatar": "🎁",
+    "description": "Multi-protocol airdrop eligibility checker",
+    "tags": [
+      "airdrop",
+      "eligibility",
+      "rewards"
+    ],
+    "title": "Airdrop Checker",
+    "category": "tools"
+  },
+  "schemaVersion": 1
+}

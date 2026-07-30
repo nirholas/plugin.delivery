@@ -640,7 +640,7 @@ Access-Control-Allow-Headers: Content-Type
 ## Next Steps
 
 - [Plugin Manifest Reference](./PLUGIN_MANIFEST.md) - Full manifest docs
-- [Gateway Guide](./GATEWAY_GUIDE.md) - Set up local development
+- [Gateway Guide](./COMMUNICATION_GUIDE.md) - Set up local development
 - [Quick Start](./QUICK_START.md) - Build your first plugin
 
 ---

@@ -1,0 +1,19 @@
+{
+  "author": "SperaxOS",
+  "createdAt": "2025-01-01",
+  "homepage": "https://github.com/nirholas/plugin.delivery",
+  "identifier": "phishing-detector",
+  "manifest": "https://plugin.delivery/phishing-detector/manifest.json",
+  "meta": {
+    "avatar": "🎣",
+    "description": "Detect phishing sites and scam contracts",
+    "tags": [
+      "phishing",
+      "scam",
+      "security"
+    ],
+    "title": "Phishing Detector",
+    "category": "tools"
+  },
+  "schemaVersion": 1
+}

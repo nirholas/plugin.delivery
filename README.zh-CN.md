@@ -5,9 +5,10 @@
 **AI Function Call Plugins & Tools for SperaxOS**
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/nirholas/plugin.delivery)
-[![npm](https://img.shields.io/npm/v/@sperax/plugin-sdk)](https://www.npmjs.com/package/@sperax/plugin-sdk)
 
-**Live:** [`plugin.delivery`](https://plugin.delivery)
+**Source:** [github.com/nirholas/plugin.delivery](https://github.com/nirholas/plugin.delivery)
+
+The plugin.delivery host is offline while hosting is being migrated; the plugin catalog ships in this repository under `public/`.
 
 [📚 Docs](#documentation) • [🚀 Quick Start](#quick-start) • [📦 Templates](#plugin-templates) • [🎨 Plugin Types](#plugin-types) • [🔧 Development](#development)
 
@@ -240,11 +241,15 @@ templates/standalone/
 
 ### 1. Install the SDK
 
+The SDK is not published to the npm registry yet. Install it from a clone of this repository:
+
 ```bash
-bun add @sperax/plugin-sdk
-# or
-npm install @sperax/plugin-sdk
+git clone https://github.com/nirholas/plugin.delivery.git
+cd plugin.delivery
+pnpm install
 ```
+
+`@sperax/plugin-sdk` and `@sperax/chat-plugins-gateway` then resolve as workspace packages (see `pnpm-workspace.yaml`).
 
 ### 2. Create manifest.json
 
@@ -401,10 +406,12 @@ plugins/
 
 ## Packages
 
-| Package | Description | npm |
-|---------|-------------|-----|
-| `@sperax/plugin-sdk` | Plugin SDK for building SperaxOS plugins | [![npm](https://img.shields.io/npm/v/@sperax/plugin-sdk)](https://www.npmjs.com/package/@sperax/plugin-sdk) |
-| `@sperax/chat-plugins-gateway` | Gateway service for routing plugin calls | [![npm](https://img.shields.io/npm/v/@sperax/chat-plugins-gateway)](https://www.npmjs.com/package/@sperax/chat-plugins-gateway) |
+Both packages live in this repository and are not published to the npm registry yet.
+
+| Package | Description | Source |
+|---------|-------------|--------|
+| `@sperax/plugin-sdk` | Plugin SDK for building SperaxOS plugins | [`packages/sdk`](packages/sdk) |
+| `@sperax/chat-plugins-gateway` | Gateway service for routing plugin calls | [`packages/gateway`](packages/gateway) |
 
 ### SDK Usage
 
@@ -471,8 +478,8 @@ We welcome contributions! See [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 | Resource | URL |
 |----------|-----|
-| 🌐 **Plugin Index** | [plugin.delivery](https://plugin.delivery) |
-| 📦 **SDK on npm** | [@sperax/plugin-sdk](https://www.npmjs.com/package/@sperax/plugin-sdk) |
+| 🌐 **Plugin Index** | [`public/index.json`](public/index.json) in this repository (the plugin.delivery host is offline while hosting is migrated) |
+| 📦 **SDK** | [`packages/sdk`](packages/sdk) (workspace package, not yet published to npm) |
 | 🐙 **GitHub** | [github.com/nirholas/plugins](https://github.com/nirholas/plugin.delivery) |
 | 🐦 **Twitter/X** | [@nichxbt](https://x.com/nichxbt) |
 

@@ -1,0 +1,19 @@
+{
+  "author": "SperaxOS",
+  "createdAt": "2025-01-01",
+  "homepage": "https://github.com/nirholas/plugin.delivery",
+  "identifier": "limit-orders",
+  "manifest": "https://plugin.delivery/limit-orders/manifest.json",
+  "meta": {
+    "avatar": "📊",
+    "description": "DEX limit order form with price charts",
+    "tags": [
+      "limit",
+      "orders",
+      "trading"
+    ],
+    "title": "Limit Orders",
+    "category": "stocks-finance"
+  },
+  "schemaVersion": 1
+}

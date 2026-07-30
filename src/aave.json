@@ -1,0 +1,20 @@
+{
+  "author": "SperaxOS",
+  "createdAt": "2025-01-01",
+  "homepage": "https://github.com/nirholas/plugin.delivery",
+  "identifier": "aave",
+  "manifest": "https://plugin.delivery/aave/manifest.json",
+  "meta": {
+    "avatar": "👻",
+    "description": "Interactive Aave position management with health factor calculator",
+    "tags": [
+      "aave",
+      "lending",
+      "defi",
+      "positions"
+    ],
+    "title": "Aave Dashboard",
+    "category": "stocks-finance"
+  },
+  "schemaVersion": 1
+}

@@ -1,0 +1,19 @@
+{
+  "author": "SperaxOS",
+  "createdAt": "2025-01-01",
+  "homepage": "https://github.com/nirholas/plugin.delivery",
+  "identifier": "token-approvals",
+  "manifest": "https://plugin.delivery/token-approvals/manifest.json",
+  "meta": {
+    "avatar": "✅",
+    "description": "Interactive token approval manager with revoke functionality",
+    "tags": [
+      "approvals",
+      "security",
+      "revoke"
+    ],
+    "title": "Token Approvals",
+    "category": "tools"
+  },
+  "schemaVersion": 1
+}

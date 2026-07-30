@@ -708,7 +708,7 @@ Plugins appear in the store based on:
 |----------|-----|
 | Plugin Index | `https://plugin.delivery/index.json` |
 | Gateway | `https://plugin.delivery/api/gateway` |
-| SDK Docs | [SDK API Reference](./SDK_API_REFERENCE.md) |
+| SDK Docs | [SDK API Reference](../SDK_API_REFERENCE.md) |
 | OpenAPI Spec | `https://swagger.io/specification/` |
 
 ### File Locations (plugins repo)
@@ -732,5 +732,5 @@ plugins/
 
 ---
 
-*For development guide, see [PLUGIN_DEVELOPMENT_GUIDE.md](./PLUGIN_DEVELOPMENT_GUIDE.md)*
-*For MCP plugins, see [MCP_VS_PLUGINS.md](../SperaxOS/docs/MCP_VS_PLUGINS.md)*
+*For development guide, see [PLUGIN_DEVELOPMENT_GUIDE.md](../PLUGIN_DEVELOPMENT_GUIDE.md)*
+*For MCP plugins, see [MCP_VS_PLUGINS.md](../MCP_COMPARISON.md)*

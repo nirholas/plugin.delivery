@@ -1,0 +1,19 @@
+{
+  "author": "SperaxOS",
+  "createdAt": "2025-01-01",
+  "homepage": "https://github.com/nirholas/plugin.delivery",
+  "identifier": "tx-decoder",
+  "manifest": "https://plugin.delivery/tx-decoder/manifest.json",
+  "meta": {
+    "avatar": "🔍",
+    "description": "Decode transaction calldata with input field and output display",
+    "tags": [
+      "decoder",
+      "transaction",
+      "calldata"
+    ],
+    "title": "Transaction Decoder",
+    "category": "tools"
+  },
+  "schemaVersion": 1
+}

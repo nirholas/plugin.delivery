@@ -58,7 +58,7 @@ Add screenshots showing your plugin in action.
 
 - [ ] I have tested my plugin locally
 - [ ] My plugin manifest is valid JSON
-- [ ] My plugin follows the [Plugin Development Guide](../docs/PLUGIN_DEVELOPMENT_GUIDE.md)
+- [ ] My plugin follows the [Plugin Development Guide](../../docs/PLUGIN_DEVELOPMENT_GUIDE.md)
 - [ ] My plugin has proper error handling
 - [ ] My plugin includes proper documentation
 

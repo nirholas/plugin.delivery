@@ -1,0 +1,19 @@
+{
+  "author": "SperaxOS",
+  "createdAt": "2025-01-01",
+  "homepage": "https://github.com/nirholas/plugin.delivery",
+  "identifier": "nft-rarity",
+  "manifest": "https://plugin.delivery/nft-rarity/manifest.json",
+  "meta": {
+    "avatar": "💎",
+    "description": "NFT rarity rankings and trait analysis",
+    "tags": [
+      "nft",
+      "rarity",
+      "ranking"
+    ],
+    "title": "NFT Rarity",
+    "category": "gaming-entertainment"
+  },
+  "schemaVersion": 1
+}

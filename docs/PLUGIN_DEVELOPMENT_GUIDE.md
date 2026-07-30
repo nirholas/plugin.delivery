@@ -60,10 +60,15 @@ Server runs at `http://localhost:3400`
 
 Initialize your project:
 
+The SDK packages are not on the npm registry yet, so add them from a clone of this repository (`pnpm install` at the repo root links them as workspace packages).
+
 ```bash
-mkdir my-plugin && cd my-plugin
+git clone https://github.com/nirholas/plugin.delivery.git
+cd plugin.delivery
+pnpm install
+mkdir -p packages/my-plugin && cd packages/my-plugin
 pnpm init
-pnpm add @sperax/plugin-sdk @sperax/chat-plugins-gateway
+pnpm add @sperax/plugin-sdk@workspace:* @sperax/chat-plugins-gateway@workspace:*
 pnpm add -D typescript @types/node
 ```
 
@@ -1314,11 +1319,9 @@ Translations generated for: `en-US`, `zh-CN`, `zh-TW`, `ja-JP`, `ko-KR`, `de-DE`
 # Create new plugin (choose a template)
 cp -r templates/openapi my-plugin
 
-# Install SDK
-npm install @sperax/plugin-sdk
-
-# Install Gateway (for local dev)
-npm install @sperax/chat-plugins-gateway
+# The SDK and gateway are workspace packages, not npm releases.
+# Running pnpm install at the repo root links them for you.
+pnpm install
 
 # Run locally
 npm run dev
@@ -1332,4 +1335,4 @@ vercel --prod
 
 ---
 
-*For MCP (Model Context Protocol) plugins, see the [MCP vs Plugins Guide](../SperaxOS/docs/MCP_VS_PLUGINS.md).*
+*For MCP (Model Context Protocol) plugins, see the [MCP vs Plugins Guide](./MCP_COMPARISON.md).*

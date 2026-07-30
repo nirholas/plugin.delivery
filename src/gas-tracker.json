@@ -1,0 +1,20 @@
+{
+  "author": "SperaxOS",
+  "createdAt": "2025-01-01",
+  "homepage": "https://github.com/nirholas/plugin.delivery",
+  "identifier": "gas-tracker",
+  "manifest": "https://plugin.delivery/gas-tracker/manifest.json",
+  "meta": {
+    "avatar": "⛽",
+    "description": "Real-time gas prices with charts and alert notifications",
+    "tags": [
+      "gas",
+      "ethereum",
+      "fees",
+      "alerts"
+    ],
+    "title": "Gas Tracker",
+    "category": "tools"
+  },
+  "schemaVersion": 1
+}

@@ -1,0 +1,19 @@
+{
+  "author": "SperaxOS",
+  "createdAt": "2025-01-01",
+  "homepage": "https://github.com/nirholas/plugin.delivery",
+  "identifier": "l2-fees",
+  "manifest": "https://plugin.delivery/l2-fees/manifest.json",
+  "meta": {
+    "avatar": "📉",
+    "description": "Interactive comparison of gas fees across Layer 2 networks",
+    "tags": [
+      "l-2",
+      "fees",
+      "comparison"
+    ],
+    "title": "L2 Fees Compare",
+    "category": "tools"
+  },
+  "schemaVersion": 1
+}

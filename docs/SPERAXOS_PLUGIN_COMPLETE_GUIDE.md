@@ -124,12 +124,12 @@ User Message: "Show my portfolio"
 
 ### SDK Installation
 
-```bash
-# For plugin development
-pnpm add @nirholas/plugin-sdk
+The SDK packages are not on the npm registry yet, so add them from a clone of this repository (`pnpm install` at the repo root links them as workspace packages).
 
-# For gateway setup
-pnpm add @nirholas/chat-plugins-gateway
+```bash
+git clone https://github.com/nirholas/plugin.delivery.git
+cd plugin.delivery
+pnpm install
 ```
 
 ### SDK Client API

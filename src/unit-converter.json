@@ -1,0 +1,20 @@
+{
+  "author": "SperaxOS",
+  "createdAt": "2025-01-01",
+  "homepage": "https://github.com/nirholas/plugin.delivery",
+  "identifier": "unit-converter",
+  "manifest": "https://plugin.delivery/unit-converter/manifest.json",
+  "meta": {
+    "avatar": "🔄",
+    "description": "Multi-unit converter for crypto (wei, gwei, satoshi)",
+    "tags": [
+      "converter",
+      "wei",
+      "gwei",
+      "satoshi"
+    ],
+    "title": "Unit Converter",
+    "category": "tools"
+  },
+  "schemaVersion": 1
+}

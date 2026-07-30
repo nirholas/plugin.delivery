@@ -1,0 +1,19 @@
+{
+  "author": "SperaxOS",
+  "createdAt": "2025-01-01",
+  "homepage": "https://github.com/nirholas/plugin.delivery",
+  "identifier": "epoch-converter",
+  "manifest": "https://plugin.delivery/epoch-converter/manifest.json",
+  "meta": {
+    "avatar": "⏰",
+    "description": "Unix timestamp converter with timezone support",
+    "tags": [
+      "epoch",
+      "timestamp",
+      "date"
+    ],
+    "title": "Epoch Converter",
+    "category": "tools"
+  },
+  "schemaVersion": 1
+}

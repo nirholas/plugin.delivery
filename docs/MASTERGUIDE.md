@@ -467,10 +467,10 @@ In this way, when SperaxOS attempts to communicate with the plugin, it will dire
 Creating Local Gateway Routes
 Next, you need to create a gateway route in the local service to handle requests from SperaxOS. You can use the functions provided by the @sperax/chat-plugins-gateway package to quickly create this route.
 
-First, ensure that you have installed the @sperax/chat-plugins-gateway package. If not, you can install it using the following command:
+First, ensure that you have the @sperax/chat-plugins-gateway package available. It is a workspace package in the nirholas/plugin.delivery repository rather than an npm release, so clone the repo and install:
 
 sh
-pnpm install @sperax/chat-plugins-gateway
+git clone https://github.com/nirholas/plugin.delivery.git && cd plugin.delivery && pnpm install
 Then, in your local Next.js project, create a new TypeScript file in the api directory, for example, pages/api/gateway.ts, and add the following code:
 
 ts
@@ -671,11 +671,7 @@ Using Chat Plugin SDK
 SperaxOS provides the Chat Plugin SDK, which is a set of tools and components to help developers build plugins. For plugin types that require frontend (such as default and standalone), you need to install the SDK in your project and use it to build the frontend part of the plugin.
 
 fish
-pnpm i @sperax/plugin-sdk
-or
-
-fish
-bun i @sperax/plugin-sdk
+git clone https://github.com/nirholas/plugin.delivery.git && cd plugin.delivery && pnpm install
 Developing Frontend UI and Logic
 Depending on your plugin type, you may need to develop the user interface and interaction logic. For standalone plugins, implementing the complete application logic and communication mechanism with SperaxOS is crucial.
 
@@ -695,14 +691,7 @@ Embedding UI in an Iframe
 The UI of SperaxOS plugins is essentially embedded in an iframe, which means the plugins support all types of frontend technology stacks. Whether you choose React, Vue, Angular, or other frameworks, they can be used to build your plugin UI.
 
 Support for React Technology Stack
-SperaxOS provides templates and component libraries @sperax/ui specifically designed for the React technology stack, enabling developers to quickly get started and build plugin UI.
-
-sh
-npm install @sperax/ui
-or
-
-sh
-yarn add @sperax/ui
+SperaxOS provides templates designed for the React technology stack, enabling developers to quickly get started and build plugin UI. Start from templates/standalone in this repository; there is no separate published component library.
 Key Considerations
 It is recommended to follow the following steps and considerations to build an extension plugin that provides an excellent experience for users:
 

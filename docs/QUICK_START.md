@@ -40,10 +40,14 @@ bun install
 
 ### Option B: From Scratch
 
+The SDK packages are not on the npm registry yet, so add them from a clone of this repository (`pnpm install` at the repo root links them as workspace packages).
+
 ```bash
-mkdir my-plugin && cd my-plugin
+git clone https://github.com/nirholas/plugin.delivery.git
+cd plugin.delivery
+pnpm install
+mkdir -p packages/my-plugin && cd packages/my-plugin
 bun init -y
-bun add @sperax/plugin-sdk
 ```
 
 ---

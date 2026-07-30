@@ -1,0 +1,19 @@
+{
+  "author": "SperaxOS",
+  "createdAt": "2025-01-01",
+  "homepage": "https://github.com/nirholas/plugin.delivery",
+  "identifier": "apy-calculator",
+  "manifest": "https://plugin.delivery/apy-calculator/manifest.json",
+  "meta": {
+    "avatar": "📈",
+    "description": "Compound frequency visualizer and APR to APY converter",
+    "tags": [
+      "apy",
+      "apr",
+      "yield"
+    ],
+    "title": "APY Calculator",
+    "category": "tools"
+  },
+  "schemaVersion": 1
+}

@@ -1,0 +1,19 @@
+{
+  "author": "SperaxOS",
+  "createdAt": "2025-01-01",
+  "homepage": "https://github.com/nirholas/plugin.delivery",
+  "identifier": "pnl-calculator",
+  "manifest": "https://plugin.delivery/pnl-calculator/manifest.json",
+  "meta": {
+    "avatar": "💰",
+    "description": "Interactive trading profit/loss calculator with charts",
+    "tags": [
+      "pnl",
+      "calculator",
+      "trading"
+    ],
+    "title": "PnL Calculator",
+    "category": "tools"
+  },
+  "schemaVersion": 1
+}

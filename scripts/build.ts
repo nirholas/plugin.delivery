@@ -1,4 +1,5 @@
 import { consola } from 'consola';
+import { existsSync } from 'node:fs';
 import { readJSONSync, writeJSONSync } from 'fs-extra';
 import { cloneDeep, merge, uniqBy } from 'lodash-es';
 import { resolve } from 'node:path';
@@ -16,6 +17,7 @@ const build = async () => {
   };
 
   const list = {};
+  const untranslated = new Set<string>();
 
   for (const file of plugins) {
     if (file.isFile()) {
@@ -26,6 +28,14 @@ const build = async () => {
       for (const locale of config.outputLocales) {
         if (!list[locale]) list[locale] = [];
         const localeFilePath = resolve(localesDir, file.name.replace('.json', `.${locale}.json`));
+        // A plugin added before `scripts/i18n.ts` has run has no translation file
+        // yet. Fall back to the entry-locale strings so one untranslated plugin
+        // cannot drop the whole catalog, and warn so the gap stays visible.
+        if (!existsSync(localeFilePath)) {
+          untranslated.add(`${plugin.identifier} (${locale})`);
+          list[locale].push(cloneDeep(plugin));
+          continue;
+        }
         const localeData = readJSONSync(localeFilePath);
         list[locale].push(merge(cloneDeep(plugin), localeData));
       }
@@ -58,6 +68,12 @@ const build = async () => {
     writeJSONSync(resolve(publicDir, name), pluginsIndex);
 
     consola.success(`build ${name}`);
+  }
+
+  if (untranslated.size > 0) {
+    consola.warn(
+      `${untranslated.size} plugin/locale pairs have no translation file and fell back to ${config.entryLocale}. Run "bun scripts/i18n.ts" to translate them:\n  ${[...untranslated].join('\n  ')}`,
+    );
   }
 };
 

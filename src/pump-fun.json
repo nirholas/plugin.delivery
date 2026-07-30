@@ -1,0 +1,19 @@
+{
+  "author": "SperaxOS",
+  "createdAt": "2025-01-01",
+  "homepage": "https://github.com/nirholas/plugin.delivery",
+  "identifier": "pump-fun",
+  "manifest": "https://plugin.delivery/pump-fun/manifest.json",
+  "meta": {
+    "avatar": "🚀",
+    "description": "Real-time Solana memecoin feed with filters",
+    "tags": [
+      "pump",
+      "solana",
+      "memecoin"
+    ],
+    "title": "Pump.fun Tracker",
+    "category": "stocks-finance"
+  },
+  "schemaVersion": 1
+}

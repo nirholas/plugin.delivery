@@ -1,0 +1,19 @@
+{
+  "author": "SperaxOS",
+  "createdAt": "2025-01-01",
+  "homepage": "https://github.com/nirholas/plugin.delivery",
+  "identifier": "dex-new-pairs",
+  "manifest": "https://plugin.delivery/dex-new-pairs/manifest.json",
+  "meta": {
+    "avatar": "🆕",
+    "description": "Live pair feed with alerts for new listings",
+    "tags": [
+      "dex",
+      "new",
+      "pairs"
+    ],
+    "title": "DEX New Pairs",
+    "category": "stocks-finance"
+  },
+  "schemaVersion": 1
+}

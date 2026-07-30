@@ -16,14 +16,22 @@ Complete API reference for the Plugin SDK (`@sperax/plugin-sdk`) from **nirholas
 
 ## Installation
 
-```bash
-# Install the SDK from nirholas/plugin.delivery
-pnpm add @sperax/plugin-sdk
+`@sperax/plugin-sdk` is not published to the npm registry yet. Install it from a clone of this repository, where it resolves as a workspace package:
 
-# Or with npm/yarn/bun
-npm install @sperax/plugin-sdk
-yarn add @sperax/plugin-sdk
-bun add @sperax/plugin-sdk
+```bash
+git clone https://github.com/nirholas/plugin.delivery.git
+cd plugin.delivery
+pnpm install
+```
+
+Then depend on it from a package inside the workspace:
+
+```json
+{
+  "dependencies": {
+    "@sperax/plugin-sdk": "workspace:*"
+  }
+}
 ```
 
 ---

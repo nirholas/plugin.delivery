@@ -509,11 +509,10 @@ console.log('Resolved filename:', fileName);
 
 ## Resources
 
-- [Full Documentation](docs/)
-- [API Reference](docs/SDK_API_REFERENCE.md)
-- [Plugin Development Guide](docs/PLUGIN_DEVELOPMENT_GUIDE.md)
-- [Testing Guide](testing-guide/testing-guide.mdc)
-- [Contributing Guide](CONTRIBUTING.md)
+- [Full Documentation](../../docs/)
+- [API Reference](../../docs/SDK_API_REFERENCE.md)
+- [Plugin Development Guide](../../docs/PLUGIN_DEVELOPMENT_GUIDE.md)
+- [Contributing Guide](../../CONTRIBUTING.md)
 - [SperaxOS GitHub](https://github.com/nirholas/SperaxOS)
 
 ## License

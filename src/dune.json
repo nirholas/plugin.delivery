@@ -1,0 +1,19 @@
+{
+  "author": "SperaxOS",
+  "createdAt": "2025-01-01",
+  "homepage": "https://github.com/nirholas/plugin.delivery",
+  "identifier": "dune",
+  "manifest": "https://plugin.delivery/dune/manifest.json",
+  "meta": {
+    "avatar": "🔮",
+    "description": "Dashboard embedder and query runner",
+    "tags": [
+      "dune",
+      "analytics",
+      "data"
+    ],
+    "title": "Dune Analytics",
+    "category": "science-education"
+  },
+  "schemaVersion": 1
+}

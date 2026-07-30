@@ -1,0 +1,19 @@
+{
+  "author": "SperaxOS",
+  "createdAt": "2025-01-01",
+  "homepage": "https://github.com/nirholas/plugin.delivery",
+  "identifier": "bridge-aggregator",
+  "manifest": "https://plugin.delivery/bridge-aggregator/manifest.json",
+  "meta": {
+    "avatar": "🌉",
+    "description": "Multi-bridge comparison with route visualization",
+    "tags": [
+      "bridge",
+      "cross-chain",
+      "routing"
+    ],
+    "title": "Bridge Aggregator",
+    "category": "stocks-finance"
+  },
+  "schemaVersion": 1
+}

@@ -1,0 +1,19 @@
+{
+  "author": "SperaxOS",
+  "createdAt": "2025-01-01",
+  "homepage": "https://github.com/nirholas/plugin.delivery",
+  "identifier": "wallet-analyzer",
+  "manifest": "https://plugin.delivery/wallet-analyzer/manifest.json",
+  "meta": {
+    "avatar": "👛",
+    "description": "Multi-chain portfolio charts and asset breakdown",
+    "tags": [
+      "wallet",
+      "portfolio",
+      "analysis"
+    ],
+    "title": "Wallet Analyzer",
+    "category": "tools"
+  },
+  "schemaVersion": 1
+}

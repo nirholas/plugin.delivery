@@ -1,0 +1,22 @@
+{
+  "author": "nirholas",
+  "createdAt": "2026-03-27",
+  "homepage": "https://github.com/nirholas/bitrefill-plugin",
+  "identifier": "bitrefill",
+  "manifest": "https://plugin.delivery/bitrefill/manifest.json",
+  "meta": {
+    "avatar": "🎁",
+    "description": "Purchase gift cards, eSIMs, and mobile top-ups from 170+ countries using cryptocurrency or account balance",
+    "tags": [
+      "gift-cards",
+      "esims",
+      "top-ups",
+      "crypto-shopping",
+      "bitcoin",
+      "bitrefill"
+    ],
+    "title": "Bitrefill",
+    "category": "stocks-finance"
+  },
+  "schemaVersion": 1
+}
