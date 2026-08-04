@@ -1,6 +1,6 @@
 {
   "name": "plugin.delivery",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "AI Plugin Index - Function call plugins and tools for SperaxOS",
   "homepage": "https://plugin.delivery",
   "repository": {
@@ -27,10 +27,6 @@
     "dev": "vercel dev",
     "deploy": "vercel --prod"
   },
-  "dependencies": {
-    "@sperax/plugin-sdk": "workspace:*",
-    "@sperax/chat-plugins-gateway": "workspace:*"
-  },
   "devDependencies": {
     "@types/fs-extra": "^11.0.4",
     "@types/lodash-es": "^4.17.12",
@@ -49,6 +45,8 @@
     "typescript": "^5.9.3",
     "vercel": "^39.4.2",
     "zod": "^3.25.76",
-    "zod-to-json-schema": "^3.25.2"
+    "zod-to-json-schema": "^3.25.2",
+    "@sperax/plugin-sdk": "workspace:*",
+    "@sperax/chat-plugins-gateway": "workspace:*"
   }
 }
