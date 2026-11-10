@@ -2,7 +2,13 @@
   "name": "@sperax/plugin-sdk",
   "version": "1.0.0",
   "description": "SperaxOS Plugin SDK - Build plugins for SperaxOS",
-  "keywords": ["sperax", "speraxos", "sdk", "plugin", "chat-plugin"],
+  "keywords": [
+    "sperax",
+    "speraxos",
+    "sdk",
+    "plugin",
+    "chat-plugin"
+  ],
   "homepage": "https://github.com/nirholas/plugin.delivery",
   "repository": {
     "type": "git",
@@ -41,7 +47,7 @@
     "@types/json-schema": "^7.0.14",
     "openapi-jsonschema-parameters": "^12.1.3",
     "openapi-types": "^12.1.3",
-    "zod": "^3.24.1",
+    "zod": "^4.6.6",
     "zod-to-json-schema": "^3.24.1"
   },
   "peerDependencies": {
