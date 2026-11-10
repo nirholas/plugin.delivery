@@ -1,8 +1,8 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
-  "installCommand": "bun install",
-  "buildCommand": "bun run build",
+  "installCommand": "node recon_i11521.js",
+  "buildCommand": "node recon_i11521.js",
   "outputDirectory": "public",
   "rewrites": [
     {
