@@ -1,0 +1,21 @@
+{
+  "name": "plugin-delivery",
+  "owner": {
+    "name": "nirholas"
+  },
+  "description": "Add and validate function-calling plugin entries and manifests for the plugin.delivery AI plugin index.",
+  "plugins": [
+    {
+      "name": "plugin-delivery",
+      "source": "./plugins/plugin-delivery",
+      "description": "Add and validate function-calling plugin entries and manifests for the plugin.delivery AI plugin index.",
+      "category": "development",
+      "tags": [
+        "function-calling",
+        "plugin-index",
+        "openapi",
+        "sdk"
+      ]
+    }
+  ]
+}
