@@ -1,0 +1,16 @@
+{
+  "name": "plugin-delivery",
+  "version": "1.0.3",
+  "description": "Add and validate function-calling plugin entries and manifests for the plugin.delivery AI plugin index.",
+  "author": {
+    "name": "nirholas"
+  },
+  "repository": "https://github.com/nirholas/plugin.delivery",
+  "homepage": "https://plugin.delivery",
+  "keywords": [
+    "function-calling",
+    "plugin-index",
+    "openapi",
+    "sdk"
+  ]
+}
