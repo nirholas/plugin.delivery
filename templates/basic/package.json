@@ -57,7 +57,7 @@
     "antd": "^5",
     "antd-style": "^3",
     "dayjs": "^1",
-    "next": "15.5.28",
+    "next": "15.5.29",
     "react": "^18",
     "react-dom": "^18",
     "react-layout-kit": "^1"
